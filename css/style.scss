@@ -9,3 +9,42 @@ body{
 h1 {
     font-family: $font-family2;
 }
+
+#bannerdetail{
+    text-decoration: underline;
+}
+
+#elyas{
+    font-size: 0.875rem;
+}
+
+.input-group input[type=text]{
+    width: 10%;
+}
+
+.container-nav{
+    display: flex;
+}
+
+.jumbotron{
+    background-image: url('/img/shoe1.jpg');
+    background-size: cover;
+    background-position: center 50%;
+    height: 60vh;
+}
+
+#category a{
+    color: black;
+}
+
+.previcon{
+    bottom: 50%;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }

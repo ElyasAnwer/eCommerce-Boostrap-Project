@@ -16,58 +16,302 @@
 </head>
 
 <body>
-
-    <div class="alert alert-primary alert-dismissible fade show m-0" role="alert">
-        <strong>Only few spots left for registraion.Reserver you spot now!</strong>
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
-
-    <header>
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+    <div class="container-fluid">
+        <div class="alert bg-dark alert-dismissible fade show m-0 text-center text-white" role="alert">
+            <strong>Free shipping on orders $60+!</strong>
+            <!-- <span> <button type="button" data-toggle="collapse" data-target="#elyas">More details</button> </span> -->
+            <span> <a href="#elyas" data-toggle="collapse" id="bannerdetail"> Details</a> </span>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
             </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
+        </div>
+        <div>
+            <div class="collapse" id="elyas">
+                <div class="bg-light p-4">
+                    <h3>Get free shipping.</h3>
+                    <p><strong>myNB Rewards members:</strong>Enjoy free shipping on all orders, every day.</p>
+                    <p><strong>Nonmembers:</strong>Free shipping over on orders over 60$ </p>
+                    <p>
+                        Free Shipping applies to UPS Ground to the 48 Contiguous United States. Free Shipping applies to
+                        UPS SurePost to P.O. boxes. Free Shipping applies to USPS Priority Mail to AK, HI, U.S. Postal
+                        Territories, and APO/FPO addresses.
+                    </p>
+                </div>
             </div>
-          </nav>
+            <!-- <button type="button" class="btn btn-outline-primary" data-toggle="collapse"
+            data-target="#elyas">Primary</button> -->
 
-    </header>
+        </div>
+
+        <header>
+
+            <nav class="navbar navbar-expand-sm navbar-light bg-white">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo1.png"" width=" 50" height="50" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarMens" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Mens
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarMens">
+                                <a class="dropdown-item" href="#">Apperal</a>
+                                <a class="dropdown-item" href="#">Sandal</a>
+                                <!-- <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a> -->
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarWomen" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Women
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarWomen">
+                                <a class="dropdown-item" href="#">Boots</a>
+                                <a class="dropdown-item" href="#">Shoes</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarKids" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Kids
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarKids">
+                                <a class="dropdown-item" href="#">Boots</a>
+                                <a class="dropdown-item" href="#">Shoes</a>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <div class="container-nav">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text" id="btnGroupAddon"><i class="fa fa-search"></i></div>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Search"
+                                aria-describedby="btnGroupAddon">
+                            <a class="btn btn-dark ml-2" href="#" role="button"><i class="fa fa-sign-in"></i><span>
+                                    Login</span></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+
+        <section id="jumtrontop">
+            <div class="jumbotron">
+                <h1 class="display-4 text-center">Hello, UnicornXNike!</h1>
+                <p class="lead">Our new collaberatiob with Nike bring you new comfortable awesome shoes, UnicornXNike.
+                </p>
+                <hr class="my-2">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum labore nisi laboriosam possimus ipsum
+                    harum animi non ratione ipsa minus similique blanditiis aperiam accusamus sed vero earum, asperiores
+                    sit voluptatem?
+                </p>
+                <a class="btn btn-dark btn-lg mt-4" href="#" role="button">Shop Now</a>
+            </div>
+        </section>
+
+        <section id="category">
+            <h3 class="text-center">Shop by category</h3>
+            <div class="card-deck">
+                <div class="card text-center">
+                    <img src="img/men1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a class="card-text">Men</a>
+                    </div>
+                </div>
+                <div class="card text-center">
+                    <img src="img/women1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a class="card-text">Women</a>
+                    </div>
+                </div>
+                <div class="card text-center">
+                    <img src="img/kid1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="card-text">Kid</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <section class="pt-5 pb-5">
+            <div class="container">
+                <h3> Recommended to you</h3>
+                <div class="row">
+                    <div class="col-1 order-0">
+                        <div class="vertical-center">
+                            <a class="btn btn-dark mb-3 mr-1 previcon " href="#carouselExampleIndicators2"
+                                role="button" data-slide="prev">
+                                <i class="fa fa-arrow-left "></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-1 order-last">
+                        <div class="vertical-center">
+                            <a class="btn btn-dark mb-3" href="#carouselExampleIndicators2" role="button"
+                                data-slide="next">
+                                <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                    <div class="col-10">
+                        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280"
+                                                    src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Special title treatment</h4>
+                                                    <p class="card-text">With supporting text below as a natural lead-in
+                                                        to additional content.</p>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280"
+                                                    src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Special title treatment</h4>
+                                                    <p class="card-text">With supporting text below as a natural lead-in
+                                                        to additional content.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280"
+                                                    src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Special title treatment</h4>
+                                                    <p class="card-text">With supporting text below as a natural lead-in
+                                                        to additional content.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280"
+                                                    src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Special title treatment</h4>
+                                                    <p class="card-text">With supporting text below as a natural lead-in
+                                                        to additional content.</p>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280"
+                                                    src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Special title treatment</h4>
+                                                    <p class="card-text">With supporting text below as a natural lead-in
+                                                        to additional content.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280"
+                                                    src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Special title treatment</h4>
+                                                    <p class="card-text">With supporting text below as a natural lead-in
+                                                        to additional content.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280"
+                                                    src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Special title treatment</h4>
+                                                    <p class="card-text">With supporting text below as a natural lead-in
+                                                        to additional content.</p>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280"
+                                                    src="https://images.unsplash.com/photo-1532777946373-b6783242f211?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=8ac55cf3a68785643998730839663129">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Special title treatment</h4>
+                                                    <p class="card-text">With supporting text below as a natural lead-in
+                                                        to additional content.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280"
+                                                    src="https://images.unsplash.com/photo-1532763303805-529d595877c5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=5ee4fd5d19b40f93eadb21871757eda6">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Special title treatment</h4>
+                                                    <p class="card-text">With supporting text below as a natural lead-in
+                                                        to additional content.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
