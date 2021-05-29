@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <title>eCommerce Site Project</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="alert bg-dark alert-dismissible fade show m-0 text-center text-white" role="alert">
+            <strong>Free shipping on orders $60+!</strong>
+            <!-- <span> <button type="button" data-toggle="collapse" data-target="#elyas">More details</button> </span> -->
+            <span> <a href="#elyas" data-toggle="collapse" id="bannerdetail"> Details</a> </span>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div>
+            <div class="collapse" id="elyas">
+                <div class="bg-light p-4">
+                    <h3>Get free shipping.</h3>
+                    <p><strong>myNB Rewards members:</strong>Enjoy free shipping on all orders, every day.</p>
+                    <p><strong>Nonmembers:</strong>Free shipping over on orders over 60$ </p>
+                    <p>
+                        Free Shipping applies to UPS Ground to the 48 Contiguous United States. Free Shipping applies to
+                        UPS SurePost to P.O. boxes. Free Shipping applies to USPS Priority Mail to AK, HI, U.S. Postal
+                        Territories, and APO/FPO addresses.
+                    </p>
+                </div>
+            </div>
+            <!-- <button type="button" class="btn btn-outline-primary" data-toggle="collapse"
+            data-target="#elyas">Primary</button> -->
+
+        </div>
+
+        <header>
+
+            <nav class="navbar navbar-expand-sm navbar-light bg-white">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo1.png"" width=" 50" height="50" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarMens" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Mens
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarMens">
+                                <a class="dropdown-item" href="#">Apperal</a>
+                                <a class="dropdown-item" href="#">Sandal</a>
+                                <!-- <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a> -->
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarWomen" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Women
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarWomen">
+                                <a class="dropdown-item" href="#">Boots</a>
+                                <a class="dropdown-item" href="#">Shoes</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarKids" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Kids
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarKids">
+                                <a class="dropdown-item" href="#">Boots</a>
+                                <a class="dropdown-item" href="#">Shoes</a>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <div class="container-nav">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text" id="btnGroupAddon"><i class="fa fa-search"></i></div>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Search"
+                                aria-describedby="btnGroupAddon">
+                            <a class="btn btn-dark ml-2" href="#" role="button"><i class="fa fa-sign-in"></i><span>
+                                    Login</span></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="class">
+            <div class="row px-3 py-10 my-5">
+
+                <div class="col-lg-6 col-sm-8 cardlogin flex-row mx-auto px-0">
+                    <!-- <div class="img-left d-none d-md-flex"></div> -->
+                    <div class="card-body-login">
+                        <h4 class="title text-center mt-4">
+                            Login into account
+                        </h4>
+                        <form action="" class="form-box px-3">
+                            <div class="form-input">
+                                <span><i class="fa fa-envelope-o text-dark"></i></span>
+                                <input type="email" name="" id="" placeholder="Email" tabindex="10" required>
+                            </div>
+                            <div class="form-input">
+                                <span><i class="fa fa-lock text-dark"></i></span>
+                                <input type="Password" name="" id="" placeholder="Password" required>
+                            </div>
+
+                            <div class="custom-control custom-checkbox mb-3">
+                                <input type="checkbox" class="custom-control-input" id="customControlValidation1"
+                                    required>
+                                <label class="custom-control-label" for="customControlValidation1">Check this custom
+                                    checkbox</label>
+                            </div>
+
+                            <div class="mb-3">
+                                <button type="submit" class="btn btn-block text-uppercase">
+                                    Login
+                                </button>
+                            </div>
+                            <div class="text-right">
+                                <a href="#" class="forget-link">
+                                    Forget Password?
+                                </a>
+                            </div>
+                            <div class="text-center mb-3">
+                                or login with
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-lg-4 sm-mb-30">
+                                    <a href="#" class="text-center btn btn-block btn-social btn-facebook">facebook</a>
+                                </div>
+                                <div class="col-lg-4 sm-mb-30">
+                                    <a href="#" class="text-center btn btn-block btn-social btn-google">google</a>
+                                </div>
+                                <div class="col-lg-4 sm-mb-30">
+                                    <a href="#" class="text-center btn btn-block btn-social btn-twitter">twitter</a>
+                                </div>
+                            </div>
+                            <hr class="my-4">
+                            <div class="text-center mb-2">
+                                Don't have an account?
+                                <a href="#" class="register-link">
+                                    Create one now!
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-6 img-left">
+                    <div class="d-none d-md-flex"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-four">
+                        <h2>Saty Connected</h2>
+                        <p id="footer-paragraph">Subscribe to us so you get our promotions and closet sales event ,
+                            along free shipping offers.</p>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text" id="btnGroupAddon"><i class="fa fa-at"></i></div>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Subscribe"
+                                aria-describedby="btnGroupAddon">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-two">
+                        <h2>Links</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="$">About</a></li>
+                            <li><a href="#">Sites</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-three">
+                        <h2>Follow us </h2>
+                        <a href="http://instagram.com/"><i class="fa fa-instagram "></i></a>
+                        <a href="http://facebook.com/"><i class="fa fa-facebook "></i></a>
+                        <a href="http://twitter.com/"><i class="fa fa-twitter "></i></a>
+                        <a href="http://linkedin.com/"><i class="fa fa-linkedin "></i></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12  segment-one">
+                        <h2>Our mission</h2>
+                        <p id="footer-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur ut
+                            sit quaerat atque ipsum exercitationem debitis consectetur iste hic eius rerum, fugit modi
+                            quo quidem, possimus corrupti. Quod, perferendis eligendi?</p>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright-text">All rights reserved &copy; Unicorn.Inc 2021</p>
+
+            </div>
+
+        </footer>
+
+
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
